@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.screen{
+    @apply bg-vdarkblue min-h-screen
+}
+
+.boxes{
+    @apply grid lg:grid-cols-4 sm:grid-flow-row gap-4 w-[60%] h-[10%] m-auto pt-[10%]
+}
+.box{
+    @apply rounded-xl lg:w-[11.88rem] sm:w-full
+}
+.profile{
+    @apply row-span-2 
+}
+.profile_info{
+    @apply rounded-lg  bg-myblue lg:pl-[8%] sm:px-[5%] sm:py-[10%] lg:pt-[10%] lg:pb-[25%] lg:w-[11.88rem] sm:w-full sm:flex lg:block sm:justify-between sm:items-center lg:items-start sm:space-x-4 lg:space-x-0
+}
+.avatar{
+    @apply border-white border-2 w-14 rounded-full
+}
+.profile_info h4{
+    @apply text-lg font-light lg:mt-[16%]
+}
+.profile_info h3{
+    @apply lg:text-3xl font-medium sm:text-xl
+}
+.duration{
+    @apply lg:pl-[8%] lg:pt-[15%] sm:px-[0] sm:py-[5%] sm:flex lg:block sm:justify-between sm:px-[8%] 
+} 
+
+.duration p{
+    @apply pb-2 text-base font-normal cursor-pointer 
+}
+.details{
+    @apply bg-darkblue rounded-lg 
+}
+.xo{
+    @apply py-[10%] px-[7%] h-[70%] lg:w-[11.88rem] hover:bg-destatblue cursor-pointer sm:w-full
+}
+.header{
+    @apply flex justify-between items-center pb-4 text-base font-medium 
+}
+.header .un{
+    @apply cursor-pointer
+}
+.moment{
+    @apply sm:flex sm:items-center sm:justify-between lg:block lg:items-start lg:justify-start 
+}
+.hrs{
+    @apply text-3xl font-medium pb-2
+}
+.when{
+    @apply text-xs opacity-50
+}
+.work{
+    @apply bg-workred 
+}
+.play{
+    @apply bg-softblue
+}
+.study{
+    @apply bg-studyred
+}
+.exe{
+    @apply bg-mylimegreen
+}
+.social{
+    @apply bg-violet
+}
+.selfcare{
+    @apply bg-softorange
+}
+.img{
+    @apply h-[30%]
+}
+.icon{
+    @apply   mx-[72%] w-[25%]
+}
