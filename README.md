@@ -1,4 +1,10 @@
-# ongoing
+# Time Tracking App
+## Made with Vuejs and Tailwind
+
+### All Info generated fron JSON, 
+### You can view monthly, weekly and daily Info.
+![Time Tracker](timetracker.png)
+
 
 ## Project setup
 ```
